@@ -1,0 +1,26 @@
+h1 {
+color:green;
+}
+
+articale header p {
+background-color:red;
+color:white;
+}
+
+articale figure {
+widt: 600px;
+border: 3px solid black;
+padding: 5px;
+}
+
+articale figure img {
+width: 100%;
+}
+
+articale {
+width: 800px;
+}
+
+body {
+font-family: Verdana;
+}
