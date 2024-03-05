@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Form</title>
+    </head>
+
+    <body>
+        <div class="container"></div>
+        <div class="container"></div>
+        <div class="container"></div>
+       
+        <form>
+            <div>
+            <label for="nickname">Your nickname:</label>        <!-- label KORISTIMO ZA IMENA! -->
+            </div>
+            <div>
+            <input type="text" id="nickname" name="nickname">
+            </div>
+
+            <div>
+            <label for="user-email">Your e-mail:</label>
+            </div>
+            <div>        
+            <input type="email" id="user-email" name="user-email">  <!-- input KORISTIMO ZA KRAĆA POLJA/TEXT! -->
+            </div>
+
+            <div>
+            <label for="content">Content</label>
+            </div>
+            <div>
+            <textarea rows="10" cols="50" id="content" name="content"></textarea>   <!-- textarea KORISTIMO ZA DUŽI TEXT! -->
+                                                                                    <!-- rows OZNAČAVA BROJ LINIJA TEKSTA KOJE MOGU BITI ZAPISANE U POLJE! -->
+                                                                                    <!-- cols OZNAČAVA BROJ ZNAKOVA U SVAKOJ LINIJI TEKSTA!-->
+            </div>
+            <div>
+            <input type="submit" value="add">
+            </div>
+        </form>
+    </body>
+</html>
