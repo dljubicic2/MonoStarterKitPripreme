@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Webapp02</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Jacquard+24&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <section id="banner">
+            <img src="logo.png" class="logo"> 
+            <div class="banner-text">
+                <h1>BEER BAR</h1>
+                <p>Beer wan't leave you</p>
+            </div>
+
+            <div class="banner-btn">
+                <a href="#"><span></span> Find out</a>
+                <a href="#"><span></span> Learn more</a> 
+
+            </div>
+        </section>
+        <div id="sideNav">
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Beers</a></li>
+                    <li><a href="#">Aboute us</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div id="menuBtn">
+            <img src="MenuIcon.png" id="menu">
+        </div>
+
+
+        
+        <section id="feature">
+            <div class="title-text">
+                <p>Beers</p>
+                <h1>Choose your favorite</h1>
+            </div>
+
+            <div class="beers-img">
+                <div class="single-beer">
+                    <img src="image1.png">
+                    <div class="overlay"></div>
+                </div>
+                <div class="single-beer">
+                    <img src="picture2.avif">
+                    <div class="overlay"></div>
+                </div>
+                <div class="single-beer">
+                    <img src="picture3.avif">
+                    <div class="overlay"></div>
+                </div>
+                <div class="single-beer">
+                    <img src="picture4.avif">
+                    <div class="overlay"></div>
+                </div>
+            </div>
+        </section>
+
+
+        <script>
+            var menuBtn = document.getElementById("menuBtn")
+            var sideNav = document.getElementById("sideNav")
+            var menu = document.getElementById("menu")
+
+            sideNav.style.right = "-250px";
+            
+            menuBtn.onclick = function(){
+                if(sideNav.style.right == "-250px"){
+                    sideNav.style.right = "0";
+                }
+                else{
+                    sideNav.style.right = "-250px";
+                }
+            }
+        </script>
+
+    </body>
+
+</html>
