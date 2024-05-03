@@ -58,6 +58,7 @@ else{
 }
 */
 
+/*
 let age = 0;
 
 if(age >= 100){
@@ -76,3 +77,45 @@ else if(age < 0){
 else{
     console.log("You are not old enough to enter this site");
 }
+*/
+
+
+// Ternary operator - prečac/skračeni if i else statement!
+
+// Primjer: 1
+
+/*
+let userAge = 23;
+let message; 
+
+age >= 18 ? "You are an adult" : "You are a minor";
+
+message = age >= 18 ? "You are an adult" : "You are a minor";
+
+console.log(message);
+*/
+
+// Primjer: 2
+
+/*
+let time = 16;
+let greeting = time < 12 ? "Good morning" : "Good afternoon";
+
+console.log(greeting);
+*/
+
+// Primjer: 3
+
+/*
+let isStudent = true;
+let message = isStudent ? "You are a student" : "You are not a student";
+
+console.log(message);
+*/
+
+// Primjer: 4
+
+let purchaseAmount = 100;
+let discount = purchaseAmount >= 75 ? 10 : 0;
+
+console.log("Your total is $${purchaseAmount - purcshaseAmount * (discount/75)}");
