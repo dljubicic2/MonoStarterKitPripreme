@@ -36,3 +36,39 @@ console.log(resault);
 
 let resault2 = 12 % 5 + 8 / 2;
 console.log(resault2);
+
+
+
+
+// Logički operatori
+
+// Primjer: 1 AND = &&
+
+const temperature = -250;
+
+if(temperature > 0 && temperature <=30){
+    console.log("Weather is good!");
+}
+else {
+    console.log("The weather is bad!");
+}
+
+// Primjer: 2 OR = ||
+
+if(temperature <= 0 || temperature > 30){
+    console.log("Weather is good!");
+}
+else {
+    console.log("The weather is bad!");
+}
+
+// Primjer 3 NOT = !
+
+const isSunny = false;
+
+if(!isSunny){
+    console.log("It is sunny!");
+}
+else{
+    console.log("It is cloudy!");
+}
