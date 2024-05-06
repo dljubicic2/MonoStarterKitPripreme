@@ -1,0 +1,26 @@
+body{
+background-image: url(assets/background.webp);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed;
+margin: 0;
+display: flex;
+justify-content: center;
+min-height: 100vh;
+align-items: center;
+}
+
+.clockContainer{
+
+}
+
+.clock{
+  color: white;
+  font-size: 8rem;
+  font-weight: bold;
+  font-family: 'Tahoma';
+  text-align: center;
+  text-shadow: 3px 3px 5px rgb(255, 76, 180);
+  
+}
